@@ -1,7 +1,13 @@
-import Message from './Message'
+import Message from './Message';
+import User from './User';
 
 function App() {
-    return <div><Message /></div>
+    return (
+        <div>
+            <Message />
+            <User />
+        </div>
+    );
 }
 
-export default App
+export default App;
