@@ -9,7 +9,7 @@ const App = () => {
             <Navbar/>
             
             {/* Hero */ }
-            <Hero title="Become a React Dev." />
+            <Hero title="Become a React Dev" sub_title="Find the React job that fits your skills and needs..." />
 
             {/* Developers and Employers */}
             <section className="py-4">
