@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import HomeCards from './components/HomeCards';
 import JobListings from './components/JobListings';
 import ViewAllJobs from './components/ViewAllJobs';
+import ClickCounter from './components/Click';
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
             <HomeCards/>
             <JobListings />
             <ViewAllJobs />
+            <ClickCounter />
         </div>
     );
 };
