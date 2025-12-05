@@ -11,7 +11,7 @@ import HomePage from './pages/HomePage';
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <Route path='/' element={<MainLayout/>}>
+        <Route path='/' element={<MainLayout/>}> //parent route setup with main layout
             <Route index element={<HomePage/>} />
         </Route>
     )
@@ -19,7 +19,7 @@ const router = createBrowserRouter(
 
 const App = () => {
     return (
-        <RouterProvider router={router}></RouterProvider>
+        <RouterProvider router={router}></RouterProvider> //return provider
     );
 };
 
